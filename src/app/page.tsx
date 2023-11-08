@@ -8,11 +8,10 @@ import NavBar from "./Components/Core/NavBar";
 
 export default function Home() {
   const [state, setState] = useState<any>(false);
+  console.log("🚀 ~ file: page.tsx:11 ~ state:", state);
   const [openDrawer, setOpenDrawer] = useState<any>(false);
   const styles = {
-    navLink: {
-     
-    },
+    navLink: {},
     main: {
       height: "100vh",
       width: "100%",
