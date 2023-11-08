@@ -1,0 +1,11 @@
+.main {
+  font-size: x-large;
+  padding: 20px;
+  height: 100vh;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
